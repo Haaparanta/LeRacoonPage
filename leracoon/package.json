@@ -1,0 +1,17 @@
+{
+  "name": "leracoon",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && firebase deploy",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "firebase": "^9.6.11",
+    "three": "^0.139.2"
+  }
+}
